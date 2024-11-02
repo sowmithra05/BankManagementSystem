@@ -16,8 +16,8 @@ public class SearchCustomerServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/ss";
-    private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "9865@sowmi";
+    private static final String JDBC_USER = " your_username";
+    private static final String JDBC_PASSWORD = "your_password";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
