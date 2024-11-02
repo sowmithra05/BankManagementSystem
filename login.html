@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bank Management System</title>
+    <style>
+        /* Background and font styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe 30%, #00f2fe 90%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container box styling */
+        .container {
+            max-width: 400px;
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        /* Title styling */
+        h1 {
+            color: #0056b3;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Form labels and input styling */
+        label {
+            display: block;
+            margin: 12px 0 5px;
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: box-shadow 0.3s;
+        }
+        input:focus {
+            border-color: #0056b3;
+            box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+            outline: none;
+        }
+
+        /* Button styling */
+        .button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #4CAF50, #43a047);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #45a049, #388e3c);
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Login</h1>
+    <form action="home.html" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Login" class="button">
+    </form>
+</div>
+
+</body>
+</html>
