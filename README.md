@@ -52,8 +52,8 @@ Customer: Stores customer details such as ID, name, address, phone, and email.
 
 Note: Database credentials are configured in each JSP and Servlet file as follows:
 URL: jdbc:mysql://localhost:3306/ss  
-Username: root  
-Password: 9865@sowmi
+Username: your_username
+Password: your_password
 
 Getting Started:_
 
